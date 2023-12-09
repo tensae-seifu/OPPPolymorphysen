@@ -13,14 +13,14 @@ namespace OOP_Polymorphisem
         public float _Area {  get; set; }   
          
 
-        public Geomertri(float Area) 
+        //public Geomertri(float Area) 
         
-        { 
-         this._Area = Area;
+        //{ 
+        // this._Area = Area;
         
         
         
-        }  
+        //}  
 
         public virtual float GetArea()
 

@@ -11,7 +11,7 @@ namespace OOP_Polymorphisem
         public double _Width {  get; set; }
         public double _Height { get; set; }  
 
-        public Rectangel(double Width, double Height):base(0) 
+        public Rectangel(double Width, double Height) 
         {
         
         this._Width = Width;

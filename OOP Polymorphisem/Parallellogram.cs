@@ -11,7 +11,7 @@ namespace OOP_Polymorphisem
         public double _Base {  get; set; }  
         public double _Height {  get; set; }    
 
-        public Parallellogram(double Base,double Height):base(0) 
+        public Parallellogram(double Base,double Height) 
         {
             this._Base = Base;
             this._Height = Height;

@@ -11,7 +11,7 @@ namespace OOP_Polymorphisem
 
         public double _Side {  get; set; }  
 
-        public Square (double Side): base(0)
+        public Square (double Side)
         {
             this._Side = Side;
         }

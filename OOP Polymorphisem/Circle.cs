@@ -11,7 +11,7 @@ namespace OOP_Polymorphism
     {
         public double _Radius { get; set; }
 
-        public Circle(double Radius) : base(0)
+        public Circle(double Radius) 
         {
             this._Radius = Radius;
         }

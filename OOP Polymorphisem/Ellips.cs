@@ -12,7 +12,7 @@ namespace OOP_Polymorphisem
         public double _A { get; set; }
         public double _B { get; set; }
 
-        public Ellips(double A, double B):base(0)
+        public Ellips(double A, double B)
         {
          this._A = A;
          this._B = B;    
